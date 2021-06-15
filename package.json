@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-iter-sequences-lucas",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create an iterator which generates a Lucas sequence.",
   "license": "Apache-2.0",
   "author": {
