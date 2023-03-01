@@ -56,14 +56,30 @@ The sequence is defined by the recurrence relation
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-iter-sequences-lucas
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import iterLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-lucas@deno/mod.js';
+var iterLucasSeq = require( '@stdlib/math-iter-sequences-lucas' );
 ```
 
 #### iterLucasSeq( \[options] )
@@ -139,7 +155,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-lucas@deno/mod.js';
+var iterLucasSeq = require( '@stdlib/math-iter-sequences-lucas' );
 
 // Create an iterator:
 var it = iterLucasSeq();
@@ -175,9 +191,9 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/math/base/special/lucas`][@stdlib/math/base/special/lucas]</span><span class="delimiter">: </span><span class="description">compute the nth Lucas number.</span>
--   <span class="package-name">[`@stdlib/math/iter/sequences/fibonacci`][@stdlib/math/iter/sequences/fibonacci]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a Fibonacci sequence.</span>
--   <span class="package-name">[`@stdlib/math/iter/sequences/negalucas`][@stdlib/math/iter/sequences/negalucas]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a negaLucas sequence.</span>
+-   <span class="package-name">[`@stdlib/math-base/special/lucas`][@stdlib/math/base/special/lucas]</span><span class="delimiter">: </span><span class="description">compute the nth Lucas number.</span>
+-   <span class="package-name">[`@stdlib/math-iter/sequences/fibonacci`][@stdlib/math/iter/sequences/fibonacci]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a Fibonacci sequence.</span>
+-   <span class="package-name">[`@stdlib/math-iter/sequences/negalucas`][@stdlib/math/iter/sequences/negalucas]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a negaLucas sequence.</span>
 
 </section>
 
@@ -192,7 +208,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -258,11 +274,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/lucas]: https://github.com/stdlib-js/math-base-special-lucas/tree/deno
+[@stdlib/math/base/special/lucas]: https://github.com/stdlib-js/math-base-special-lucas
 
-[@stdlib/math/iter/sequences/fibonacci]: https://github.com/stdlib-js/math-iter-sequences-fibonacci/tree/deno
+[@stdlib/math/iter/sequences/fibonacci]: https://github.com/stdlib-js/math-iter-sequences-fibonacci
 
-[@stdlib/math/iter/sequences/negalucas]: https://github.com/stdlib-js/math-iter-sequences-negalucas/tree/deno
+[@stdlib/math/iter/sequences/negalucas]: https://github.com/stdlib-js/math-iter-sequences-negalucas
 
 <!-- </related-links> -->
 
