@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/lucas"
-click B href "https://github.com/stdlib-js/math-iter-sequences-lucas/tree/main"
-click C href "https://github.com/stdlib-js/math-iter-sequences-lucas/tree/production"
-click D href "https://github.com/stdlib-js/math-iter-sequences-lucas/tree/esm"
-click E href "https://github.com/stdlib-js/math-iter-sequences-lucas/tree/deno"
-click F href "https://github.com/stdlib-js/math-iter-sequences-lucas/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/lucas"
+%% click B href "https://github.com/stdlib-js/math-iter-sequences-lucas/tree/main"
+%% click C href "https://github.com/stdlib-js/math-iter-sequences-lucas/tree/production"
+%% click D href "https://github.com/stdlib-js/math-iter-sequences-lucas/tree/esm"
+%% click E href "https://github.com/stdlib-js/math-iter-sequences-lucas/tree/deno"
+%% click F href "https://github.com/stdlib-js/math-iter-sequences-lucas/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/iter/sequences/lucas
