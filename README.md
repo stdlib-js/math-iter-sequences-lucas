@@ -82,7 +82,7 @@ L_n = \begin{cases}2 & \textrm{if}\ n = 0\\1 & \textrm{if}\ n = 1\\L_{n-1} + L_{
 ## Usage
 
 ```javascript
-import iterLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-lucas@deno/mod.js';
+import iterLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-lucas@v0.1.0-deno/mod.js';
 ```
 
 #### iterLucasSeq( \[options] )
@@ -158,7 +158,7 @@ var bool = it.next().done;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import iterLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-lucas@deno/mod.js';
+import iterLucasSeq from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-iter-sequences-lucas@v0.1.0-deno/mod.js';
 
 // Create an iterator:
 var it = iterLucasSeq();
